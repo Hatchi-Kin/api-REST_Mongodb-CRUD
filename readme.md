@@ -10,7 +10,6 @@ This REST API built using FastApi provides a simple interface for performing CRU
 api-REST_Mongodb-CRUD
 │ 
 ├─── client 
-│   │
 │   ├─── .streamlit
 │   │   └─── config.toml
 │   ├─── pages
