@@ -1,6 +1,6 @@
 # FastApi
 This REST API built using FastApi provides a simple interface for performing CRUD operations on a MongoDB database.
-
+```bash
 api-REST_Mongodb-CRUD
 │ 
 ├─── client 
@@ -29,6 +29,8 @@ api-REST_Mongodb-CRUD
 ├─── Dockerfile-serveur
 ├─── docker-compose.yml
 └─── readme.md
+```
+
 
 ## Deployment
 ```bash
