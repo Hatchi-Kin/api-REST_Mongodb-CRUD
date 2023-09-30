@@ -4,7 +4,6 @@
 This REST API built using FastApi provides a simple interface for performing CRUD operations on a MongoDB database.
 
 
-
 ## 🧑🏻‍💻 Project
 ```bash
 api-REST_Mongodb-CRUD
@@ -51,6 +50,10 @@ The following endpoints are available:
 * `POST /add_document`
 * `PUT /update_document/{country}`
 * `DELETE /delete_document/{country}`
+More info accessible at:
+```python
+http://localhost:8000/docs
+```
 
 ## 🙇 Client
 You can use the streamlit client to test the API
