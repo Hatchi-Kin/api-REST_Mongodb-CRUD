@@ -1,5 +1,11 @@
-# FastApi
+
+# <p align="center">Brief API OpenData</p>
+  
 This REST API built using FastApi provides a simple interface for performing CRUD operations on a MongoDB database.
+
+
+
+## 🧑🏻‍💻 Project
 ```bash
 api-REST_Mongodb-CRUD
 │ 
@@ -31,14 +37,13 @@ api-REST_Mongodb-CRUD
 └─── readme.md
 ```
 
-
-## Deployment
-In api-REST_Mongodb-CRUD
+## 🛠️ Deployment:
+In /api-REST_Mongodb-CRUD
 ```bash
 docker compose up -d
 ```
 
-## Endpoints
+##  🧐  Endpoints
 The following endpoints are available:
 * `GET /unique_countries`
 * `GET /country/{country}`
@@ -48,11 +53,11 @@ The following endpoints are available:
 * `PUT /update_document/{country}`
 * `DELETE /delete_document/{country}`
 
-## Client
+## 🙇 Client
 You can use the streamlit client to test the API
 ```bash
 pip install -r client/requirements_client.txt
 ```
 ```bash
 streamlit run client/client.py
-```
+```   
