@@ -1,8 +1,6 @@
-
 # <p align="center">Brief API OpenData</p>
   
 This REST API built using FastApi provides a simple interface for performing CRUD operations on a MongoDB database.
-
 
 ## 🧑🏻‍💻 Project
 ```bash
@@ -36,7 +34,7 @@ api-REST_Mongodb-CRUD
 ```
 
 ## 🛠️ Deployment:
-In /api-REST_Mongodb-CRUD
+In /api-REST_Mongodb-CRUD:
 ```bash
 docker compose up -d
 ```
@@ -51,7 +49,7 @@ The following endpoints are available:
 * `PUT /update_document/{country}`
 * `DELETE /delete_document/{country}`
 More info accessible at:
-```python
+```bash
 http://localhost:8000/docs
 ```
 
