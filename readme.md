@@ -48,7 +48,8 @@ The following endpoints are available:
 * `POST /add_document`
 * `PUT /update_document/{country}`
 * `DELETE /delete_document/{country}`
-More info accessible at:
+  
+## 🔭 More info accessible at:
 ```bash
 http://localhost:8000/docs
 ```
