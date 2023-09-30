@@ -18,4 +18,5 @@ The following endpoints are available:
 
 ## Client
 You can use the streamlit client to test the API
+* `pip install -r client/requirements_client.txt`
 * `streamlit run client/client.py`
