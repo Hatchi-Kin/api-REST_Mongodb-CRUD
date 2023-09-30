@@ -1,8 +1,7 @@
-# <p align="center">Brief API OpenData</p>
+# <p align="center"> 🧑🏻‍💻  Brief API OpenData</p>
   
 This REST API built using FastApi provides a simple interface for performing CRUD operations on a MongoDB database.
 
-## 🧑🏻‍💻 Project
 ```bash
 api-REST_Mongodb-CRUD
 │ 
