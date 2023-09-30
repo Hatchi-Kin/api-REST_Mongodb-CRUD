@@ -1,6 +1,35 @@
 # FastApi
 This REST API built using FastApi provides a simple interface for performing CRUD operations on a MongoDB database.
 
+api-REST_Mongodb-CRUD
+│ 
+├─── client 
+│   │
+│   ├─── .streamlit
+│   │   └─── config.toml
+│   ├─── pages
+│   │   ├─── 01_Create_Post.py
+│   │   ├─── 02_Read_Get.py
+│   │   ├─── 03_Update_Put.py
+│   │   ├─── 04_Delete.py
+│   │   └─── 05_Infos.py
+│   ├─── client.py
+│   └─── requirements_client.txt
+│ 
+├─── mongo
+│   ├─── CO2_emission_by_countries.json
+│   └─── Dockerfile
+│
+├─── server
+│   ├─── connection_mongo.py
+│   ├─── my_api.py
+│   └─── requirements_api.txt
+│
+├─── .env 
+├─── Dockerfile-serveur
+├─── docker-compose.yml
+└─── readme.md
+
 ## Deployment
 ```bash
 docker compose up -d
