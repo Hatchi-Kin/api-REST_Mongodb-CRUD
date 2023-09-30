@@ -18,4 +18,4 @@ The following endpoints are available:
 
 ## Client
 You can use the streamlit client to test the API
-* `streamlit run client.py`
+* `streamlit run client/client.py`
