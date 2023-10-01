@@ -38,7 +38,7 @@ https://www.kaggle.com/datasets/moazzimalibhatti/co2-emission-by-countries-year-
 ```
 
 ## 🛠️ Deployment:
-* Navigate to the directory where you want to download the repo and run the following commands:
+* Navigate to the directory where you want to download the repo then run the following commands:
 ```bash
 git clone https://github.com/Hatchi-Kin/api-REST_Mongodb-CRUD.git
 ```
