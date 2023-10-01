@@ -37,7 +37,9 @@ api-REST_Mongodb-CRUD
 ```bash
 git clone https://github.com/Hatchi-Kin/api-REST_Mongodb-CRUD.git
 ```
-* In /api-REST_Mongodb-CRUD:
+```bash
+cd api-REST_Mongodb-CRUD
+```
 ```bash
 docker compose up -d
 ```
@@ -59,6 +61,7 @@ http://localhost:8000/docs
 
 ## 🙇 Client
 You can use the streamlit client to test the API
+* In /api-REST_Mongodb-CRUD
 ```bash
 pip install -r client/requirements_client.txt
 ```
