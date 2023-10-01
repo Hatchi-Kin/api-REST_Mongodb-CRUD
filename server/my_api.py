@@ -12,7 +12,7 @@ def get_countries():
 
 @app.get("/country/{country}")
 # par exemple : http://127.0.0.1:8000/country/France
-def get_by_country(country: str):
+def get_documents_for_country(country: str):
     documents = DataAccess.get_all_documents_by_country(country)
     return documents
 
