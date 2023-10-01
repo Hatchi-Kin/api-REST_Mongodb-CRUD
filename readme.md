@@ -32,7 +32,12 @@ api-REST_Mongodb-CRUD
 ```
 
 ## 🛠️ Deployment:
-In /api-REST_Mongodb-CRUD:
+* Navigate to the directory where you want to download the repo.
+* Run the following command:
+```bash
+git clone https://github.com/Hatchi-Kin/api-REST_Mongodb-CRUD.git
+```
+* In /api-REST_Mongodb-CRUD:
 ```bash
 docker compose up -d
 ```
