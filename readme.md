@@ -31,6 +31,12 @@ api-REST_Mongodb-CRUD
 └─── readme.md
 ```
 
+## 💾 Dataset:
+CO2 Emitted by countries into environment (Year wise from 1750 to 2022)
+```bash
+https://www.kaggle.com/datasets/moazzimalibhatti/co2-emission-by-countries-year-wise-17502022
+```
+
 ## 🛠️ Deployment:
 * Navigate to the directory where you want to download the repo.
 * Run the following command:
