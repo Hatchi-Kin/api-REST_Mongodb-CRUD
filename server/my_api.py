@@ -5,14 +5,14 @@ app = FastAPI()
 
 
 @app.get("/unique_countries") # http://127.0.0.1:8000/unique_countries
-def get_countries():
+def get_list_of_countries():
     unique_countries = DataAccess.get_unique_countries()
     return unique_countries
 
 
 @app.get("/country/{country}")
 # par exemple : http://127.0.0.1:8000/country/France
-def get_documents_for_country(country: str):
+def get_all_documents_for_country(country: str):
     documents = DataAccess.get_all_documents_by_country(country)
     return documents
 
