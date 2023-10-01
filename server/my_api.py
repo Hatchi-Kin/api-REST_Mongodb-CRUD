@@ -30,7 +30,7 @@ def update_document(country: str, new_document: dict):
 
 
 @app.delete("/delete_document/{country}")
-def delete_todo(country: str):
+def delete_document(country: str):
     DataAccess.delete_document_by_country(country)
     return {"message": "Document deleted successfully"}
 
