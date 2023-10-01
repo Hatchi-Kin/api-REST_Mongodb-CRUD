@@ -8,13 +8,15 @@ class DataAccess:
     db_name = "environment"
     collection_name = "worldcarbon"
 
+    
     @classmethod
     def connexion(cls):
-        # cls.client = MongoClient(f"mongodb://{cls.user}:{cls.mdp}@127.0.0.1:27017") # connection string for local
-        cls.client = MongoClient("mongodb://root:pass12345@mongo:27017")              # connection string for container
+        # cls.client = MongoClient(f"mongodb://{cls.user}:{cls.mdp}@127.0.0.1:27017")   # connection string for local
+        cls.client = MongoClient(f"mongodb://{cls.user}:{cls.mdp}@mongo:27017")         # connection string for container
         cls.db = cls.client[cls.db_name]
         cls.worldcarbon = cls.db[cls.collection_name]
 
+    
     @classmethod
     def deconnexion(cls):
         cls.client.close()
@@ -48,6 +50,7 @@ class DataAccess:
         cls.deconnexion()
         # Return the list of JSON documents
         return json_docs
+
     
     @classmethod
     def add_new_document_to_db(cls, document):
