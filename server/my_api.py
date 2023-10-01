@@ -18,7 +18,7 @@ def get_by_country(country: str):
 
 
 @app.post("/add_document")
-def add_entry(document: dict):
+def create_document(document: dict):
     DataAccess.add_new_document_to_db(document)
     return {"message": "Entry added successfully"}
 
